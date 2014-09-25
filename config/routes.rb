@@ -1,4 +1,5 @@
 Amazon::Application.routes.draw do
+  devise_for :users
   resources :credit_cards
 
   resources :countries
