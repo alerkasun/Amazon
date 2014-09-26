@@ -8,6 +8,11 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div class="container">
+  <ul class="nav nav-tabs">
+    <li><%= link_to "Main", :back, class: 'btn-link' %></li>
+  </ul>
+</div>
   <div class="container">
     <%= yield %>
   </div>
@@ -16,5 +21,7 @@
 <footer>
   <%= link_to "Back", :back, class: 'btn-link' %>
 <footer>
+
+
 
 </html>
