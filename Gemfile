@@ -28,6 +28,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'devise'
 gem 'bootstrap-sass', '~> 3.2.0'
+gem 'carrierwave'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
